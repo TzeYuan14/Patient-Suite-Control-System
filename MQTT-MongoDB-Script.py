@@ -53,6 +53,3 @@ client.subscribe(mqtt_topic)
 
 # Start the MQTT loop
 client.loop_forever()
-
-# To find the latest data
-# db.iot.find().sort({_id: -1}).limit(10) 
