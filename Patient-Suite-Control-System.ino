@@ -214,7 +214,7 @@ void loop() {
   }
   else{
     digitalWrite(led_light, LOW);
-    noTone(buzzerPin);              // Turn Off alarm
+    noTone(buzzerPin);              // Stop alarm
   }
 
   //*************************************************************************
