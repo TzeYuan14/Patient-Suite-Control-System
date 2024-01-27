@@ -8,7 +8,7 @@ db = mongo_client["patientMonitoring"]
 collection = db["patientMonitoring"]
 
 # MQTT configuration
-mqtt_broker_address = '35.239.167.63'
+mqtt_broker_address = '35.239.167.63'	#Replace with External IP Address
 mqtt_topic = 'IoTpatientmonitoring'
 
 def on_message(client, userdata, message):
