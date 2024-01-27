@@ -194,17 +194,8 @@ void loop() {
     digitalWrite(relay_motor, LOW);     // Switch off fan blade
   }
 
-  // uses humidity to test as the temperature value is difficult to change
-  // if(h < 85){
-  //   digitalWrite(relay_motor, LOW);
-  // }
-  // else{
-  //   digitalWrite(relay_motor, HIGH); 
-  // }
-
-
   //*************************************************************************
-  //         Light up when trigger emergency alarm using push button 2
+  //       Light up when triggering emergency alarm using push button 2
   //*************************************************************************
   if(pushButtonState2 == HIGH)
   {
